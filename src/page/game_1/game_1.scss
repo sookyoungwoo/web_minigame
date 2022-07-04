@@ -1,0 +1,54 @@
+.Out{
+    float: right;
+    
+}
+.card{
+    text-align: center;
+    padding-top: 25vh;
+    
+    .title{
+        .title_h1{
+            color: hotpink;
+            font-size: 40px;
+        }
+    }
+    .ment{
+        p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    .input_pl{
+        padding-top: 20px;
+        input{
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    .checkbutton{
+        padding-top: 40px;
+        .return{
+            padding-left: 15px;
+        }
+        button{
+            border: none;
+            border-radius: 30px;
+            width: 140px;
+            height: 40px;
+            font-size: 20px;
+            font-weight: 600;
+            background-color: hotpink;
+            color: white;
+            
+            
+            &:hover {
+                background-color: white;
+                border: 2px solid hotpink;
+                color: hotpink;
+            }
+        }
+        
+    }    
+}

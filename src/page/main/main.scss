@@ -1,0 +1,17 @@
+.total{
+    text-align: center;
+    padding-top: 25vh;
+    .title{
+        color: hotpink;
+        font-size: 40px;
+        .title_txt {
+        }
+    }
+    .start{
+        display: flex;
+        justify-content: center;
+        .game1_button{
+            padding-right: 20px;
+        }
+    }
+}
